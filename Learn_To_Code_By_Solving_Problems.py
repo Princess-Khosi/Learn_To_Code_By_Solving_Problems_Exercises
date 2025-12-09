@@ -220,20 +220,46 @@
 # SongPlaylist()
 
 
-def SecretSentence():
+# def SecretSentence():
 
-    sentence = input()
+#     sentence = input()
 
-    result = ""
-    i = 0
+#     result = ""
+#     i = 0
 
-    while i < len(sentence):
-        result = result + sentence[i]
-        if sentence[i] in "aeiou":
-            i = i + 3
-        else:
-            i = i + 1
-    print(result)
+#     while i < len(sentence):
+#         result = result + sentence[i]
+#         if sentence[i] in "aeiou":
+#             i = i + 3
+#         else:
+#             i = i + 1
+#     print(result)
 
 
-SecretSentence()
+# SecretSentence()
+
+
+def Playlist()
+
+    songs = 'ABDE'
+
+    While True:
+        button = int(input())
+
+        if button == 4:
+            break
+        presses = int(input())
+        for i in range(presses):
+            if button == 1:
+                songs = songs[1:] + songs[0]
+            elif button == 2:
+                songs = songs[-1] + songs[:-1]
+            elif button == 3:
+                songs = songs[1] + songs[0] + songs[2:]
+
+    output = ''
+    for song in songs:
+        output = output + song + ' '
+    print(output[:-1])
+
+Playlist()
