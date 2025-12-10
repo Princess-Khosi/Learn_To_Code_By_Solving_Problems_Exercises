@@ -239,27 +239,27 @@
 # SecretSentence()
 
 
-def Playlist()
+# def Playlist()
 
-    songs = 'ABDE'
+#     songs = 'ABDE'
 
-    While True:
-        button = int(input())
+#     While True:
+#         button = int(input())
 
-        if button == 4:
-            break
-        presses = int(input())
-        for i in range(presses):
-            if button == 1:
-                songs = songs[1:] + songs[0]
-            elif button == 2:
-                songs = songs[-1] + songs[:-1]
-            elif button == 3:
-                songs = songs[1] + songs[0] + songs[2:]
+#         if button == 4:
+#             break
+#         presses = int(input())
+#         for i in range(presses):
+#             if button == 1:
+#                 songs = songs[1:] + songs[0]
+#             elif button == 2:
+#                 songs = songs[-1] + songs[:-1]
+#             elif button == 3:
+#                 songs = songs[1] + songs[0] + songs[2:]
 
-    output = ''
-    for song in songs:
-        output = output + song + ' '
-    print(output[:-1])
+#     output = ''
+#     for song in songs:
+#         output = output + song + ' '
+#     print(output[:-1])
 
-Playlist()
+# Playlist()
