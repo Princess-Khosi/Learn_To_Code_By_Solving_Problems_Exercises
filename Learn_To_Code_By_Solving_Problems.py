@@ -239,11 +239,11 @@
 # SecretSentence()
 
 
-# def Playlist()
+# def Playlist():
 
-#     songs = 'ABDE'
+#     songs = 'ABCDE'
 
-#     While True:
+#     while True:
 #         button = int(input())
 
 #         if button == 4:
@@ -263,3 +263,36 @@
 #     print(output[:-1])
 
 # Playlist()
+
+# def Epidemiology()
+
+#     """Things we have to kee track of:
+#                                 The key outcome: Determine when a total of more than P people have had the disease
+#                                 Days which the study runs
+#                                 People 
+#     """
+
+#     InfectedPeople = int(input())
+#     NumberOfPeopleAlreadyInfected = int(input())
+#     PeopleInfectedByOtherPeople = int(inpt())
+
+    
+        
+
+# Epidemiology()
+
+
+def Uncrackable():
+
+    password = input()
+
+    for char in password:
+
+        if char == "" or char == "" or char == "" 
+            print("Valid")
+
+        else:
+            print("Invalid")
+
+
+Uncrackable()
