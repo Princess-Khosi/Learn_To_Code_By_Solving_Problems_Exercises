@@ -286,13 +286,23 @@ def Uncrackable():
 
     password = input()
 
+    lowercase = 0
+    uppercase = 0
+    digit = 0
+
     for char in password:
 
-        if char == "" or char == "" or char == "" 
-            print("Valid")
-
-        else:
-            print("Invalid")
+        if char.isdigit():
+            digit =+1
+        if char.islower():
+            lowercase =+ 1
+        if char.isupper():
+            uppercase =+ 1
+        
+    if lowercase > 3 or lowercase == 3 or uppercase == 2 or digit >= 1:
+        print("Valid")
+    else:
+        print("Invalid")
 
 
 Uncrackable()
